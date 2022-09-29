@@ -18,7 +18,7 @@ For a new project which does not have existing sanity tests, follow the followin
        [TestClass]
        public class TestCaseName : UITest
        {
-           [TestMethod]
+           [PangolinTestMethod]
            public override void RunTest()
            {
                //YOUR CODE
